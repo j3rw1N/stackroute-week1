@@ -8982,6 +8982,11 @@ body {
   margin-bottom: 50px; /* Margin bottom by footer height */
   font-family: 'Open Sans', Arial, sans-serif;
 }
+
+h1 {
+  text-transform: uppercase;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
