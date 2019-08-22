@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Optional meta tags-->
-    <meta name="description" content="LexCorp is building a better tomorrow, today. LexCorp provides expertise and research to the global marketplace.">
-    <meta name="keywords" content="Lex Corp,Lex Luther">
+    <meta name="description" content="LexCorp is building a better tomorrow, today. Our mission and values are to help people and businesses throughout the world realize their full potential..">
+    <meta name="keywords" content="Lexbook, Lexbook 3, Laptop, Gaming, Lex Corp, Lex Luther">
     <meta name="author" content="Lex Luther">
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
@@ -41,39 +41,148 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Products</a>
             </li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign In</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Register</a>
+              <a class="nav-link" href="#">Support</a>
+            </li>
+
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                My Account
+              </a>
+              <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" data-toggle="modal" data-target="#loginModal" href="#">Log In</a>
+                <a class="dropdown-item" data-toggle="modal" data-target="#loginModal"  href="#">Sign Up</a>
+              </div>
             </li>
           </ul>
         </div>
-      </nav><br><br>
+      </nav>
+
+      <!--LoginForm Begin-->
+      <div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Login</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+              <form class="form">
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" class="form-control form-control-lg" id="username">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password</label>
+                  <input type="password" class="form-control form-control-lg" id="pwd">
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="rememberMe">
+                  <label class="custom-control-label" for="rememberMe">Remember me</label>
+                </div>
+                <div class="form-group py-4">
+                  <button class="btn btn-outline-secondary btn-lg" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                  <button type="submit" class="btn btn-success btn-lg float-right" id="btnLogin">Login</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--LoginForm End-->
+
+
     </header>
 
     <main>
-      <!-- Hero Section-->
+
+      <!-- Carousel Begin-->
+      <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/lexbook.png" alt="lexbook 3, dark grey">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>LexBook 3 The future of the 2-in-1</h5>
+              <p>13-inch 2-in-1 with a stunning HDR display and up to 2.5 times more performance.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/card.jpg" alt="lexcard with phone">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>LexCard is here</h5>
+              <p>A new kind of credit card, focused on privacy.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Carousel End-->
+
+      <!-- Hero Section Begin-->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Welcome to LexCorp</h1>
-          <p class="lead">LexCorp is building a better tomorrow, today. LexCorp provides expertise and research to the global marketplace.</p>
+          <div class="row">
+            <div class="col-4">
+              <div class="card" >
+                <img class="card-img-top" src="img/ps4.jpg" alt="ps4 pro black">
+                <div class="card-body">
+                </div>
+              </div>
+            </div>
+            <div class="col-8">
+              <h1 class="display-5">Gaming, Super charged</h1>
+              <p class="lead">4K gaming and entertainment, HDR technology, high refresh rate.</p>
+              <a href="#">Explore ></a>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- Hero Section End-->
 
       <!-- 3 column section-->
       <div class="container bg-white">
         <div class="row">
           <div class="col-sm">
-            Lorem ipsum dolor sit amet, usu ei putant aliquid salutandi. Eum solet theophrastus signiferumque an, dignissim complectitur definitionem ex nam, iuvaret offendit ne duo. Doctus definitiones no vim, sea menandri indoctum reformidans an. Aeterno nominavi pro cu, vero vidit at usu.
+            <article class="card">
+              <img class="card-img-top" src="img/allinone.webp" alt="all in one along with lexbooks">
+              <div class="card-body">
+                <h4 class="card-title">3000 Series All-in-Ones</h4>
+                <p class="card-text">Space-saving all-in-one desktops with easy, all-in-one set-up.</p>
+                <a href="#" class="">Shop AllinOne PCs ></a>
+              </div>
+            </article>
           </div>
           <div class="col-sm">
-            Mea dico persecuti in, ex malis volutpat definitiones vix. Ignota virtute denique mea ea, laudem doming putent mea id. Sea ne augue integre, pri volumus voluptua et. Eu ponderum phaedrum atomorum pro. Volutpat convenire adversarium ei sit. Quidam vidisse sapientem pro no, usu nonumes partiendo ad.
+            <article class="card">
+              <img class="card-img-top" src="img/note10.webp" alt="note 10 - coral blue">
+              <div class="card-body">
+                <h4 class="card-title">PreOrders Open Now</h4>
+                <p class="card-text">Introducing the new note10 with best of apps and services built in.</p>
+                <a href="#" class="">PreOrder Now ></a>
+              </div>
+            </article>
           </div>
           <div class="col-sm">
-            His eu tollit ridens expetendis, te eam natum quodsi legimus. Cum ea sumo nemore vivendum, alienum persequeris eum an, ad quo oratio feugait. Id vim legimus feugait definitiones, appareat perpetua ex est. Sea et soleat molestie consectetuer. Pri sonet animal persecuti ad, eum ut equidem quaestio. Vel ei errem nusquam constituto, et quo veniam vocent postulant.
+            <article class="card">
+              <img class="card-img-top" src="img/lexbook2.webp" alt="lexbook aluminum white">
+              <div class="card-body">
+                <h4 class="card-title">Save upto $1000</h4>
+                <p class="card-text">Back to school deals on select laptops and PCs.</p>
+                <a href="#" class="">Shop LexBook ></a>
+              </div>
+            </article>
           </div>
         </div>
       </div><br>
@@ -82,26 +191,47 @@
       <!--2 col section-->
       <div class="container bg-light">
         <div class="row">
-          <div class="col">
-            Nullam sodales, velit a commodo vehicula, mauris nisl dictum nibh, in tincidunt justo libero eu nulla. Praesent sit amet neque ac eros porta maximus eu et tortor. Etiam lacus nisi, ultrices a posuere ut, euismod vel nibh. Praesent interdum malesuada quam quis tempus. Duis ornare consectetur nulla lacinia condimentum. In ac magna vitae justo aliquam luctus. Aliquam erat volutpat. Duis ut posuere libero. Etiam eleifend ullamcorper ante. Nunc et turpis vel urna iaculis rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id scelerisque augue. Aenean rhoncus, magna vel facilisis tristique, justo eros tempor lectus, non placerat erat erat sit amet tellus.
+          <div class="col maps d-none d-sm-block">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Store Locator</h4>
+                <iframe src="https://maps.google.com/maps?q=area%2051%20alien%20center&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+              </div>
+            </div>
           </div>
-          <div class="col">
+          <section class="col">
             <div class="row">
               <div class="col">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor rhoncus nulla, ut imperdiet nibh iaculis non. Duis dictum nunc in magna ullamcorper rutrum. Praesent quis eros nunc. Integer porta dui sit amet ante posuere, at hendrerit leo volutpat. Nullam in tempus tortor. Curabitur tincidunt lectus eget malesuada venenatis. In at euismod ipsum.
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Recent updates</h5>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="row">
-              <div class="col"><br>
-                Fusce ut eros non urna pellentesque ultrices. Etiam id rutrum quam. Vestibulum ante urna, bibendum sit amet nibh nec, auctor tincidunt ligula. Vivamus accumsan erat id varius vulputate. Ut porta leo eu mi rhoncus malesuada. Vestibulum vel ligula justo. Morbi tempus tempor purus, eu maximus odio. Donec vestibulum quam pharetra, dignissim metus a, tempor nisl. Sed vitae purus odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+              <div class="col">
+                <article class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Presenting the Note 10 – The Speed You Need</h5>
+                    <p class="card-text card-text-soft">6.28” Full Optic AMOLED Display with 19:9 aspect ratio, and Qualcomm® Snapdragon™ 845 deliver immersive viewing experience and smooth performance in a sleek flagship smartphone</p>
+                    <a href="#">Read more</a>
+                  </div>
+                </article>
               </div>
             </div>
             <div class="row">
-              <div class="col"><br>
-                Aliquam commodo gravida nulla sed vulputate. Nullam faucibus finibus iaculis. Integer dapibus mi ac ante dapibus, id molestie tortor imperdiet. Nullam pulvinar accumsan lectus, blandit sodales dui sollicitudin non. Duis enim elit, eleifend nec odio at, pellentesque accumsan leo. Aliquam accumsan odio eget turpis dapibus hendrerit. Cras ornare porta leo vitae lobortis. Sed volutpat odio et dolor aliquet, sit amet tempus enim ultrices. Aliquam feugiat imperdiet eros quis rutrum.
+              <div class="col">
+                <article class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Android Q Beta announced for Note 10 ahead of Phone's Launch</h5>
+                    <p class="card-text card-text-soft">LexCorp, an internationally recognized electronics company, today announced the availability of Android P Beta on its soon to launch note 10 Android smartphone.</p>
+                    <a href="#">Read more</a>
+                  </div>
+                </article>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </main>
